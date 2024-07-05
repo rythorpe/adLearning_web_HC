@@ -341,7 +341,7 @@ function buildTimeline(jsPsych) {
       // update starting index for the next block
       block_start_trial = n_trials;
     },
-    choices: ['End Practice'], // SHOULD THIS BE Next? OR DIFFERENT FOR EACH?
+    choices: ['Next'], // SHOULD THIS BE Next? OR DIFFERENT FOR EACH?
   };
 
   var real_task_welcome = {
