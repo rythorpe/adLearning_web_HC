@@ -258,7 +258,7 @@ function practice_block1(timeline, jsPsych) {
 function practice_block2(timeline, jsPsych) {
   var practice_block2_intro = {
     type: jsPsychHtmlbuttonResponse,
-    stimulus: `<div><img src=${images['zombie.png']} style='top:20%; left: 10% ;height:300px;width: 300px'><p>Now, you will practice with two groups of zombies.</p></div>`,
+    stimulus: `<div><img src=${images['zombie.png']} style='top:20%; left: 10% ;height:300px;width: 300px'><p>Next, you will practice with two groups of zombies.</p></div>`,
     choices: ['Start'],
   };
   timeline.push(practice_block2_intro);

@@ -321,7 +321,7 @@ function buildTimeline(jsPsych) {
     type: jsPsychHtmlbuttonResponse,
     choices: ['Start'],
     stimulus: `<div><img src=${images['zombie.png']} style='top:20%; left: 10% ;height:300px;width: 300px'><h1>Let's practice for a while!</h1>
-    <p>You will start by facing one zombie</p>
+    <p>You will start by facing one group of zombies.</p>
       </div>`,
   };
 
@@ -341,7 +341,7 @@ function buildTimeline(jsPsych) {
       // update starting index for the next block
       block_start_trial = n_trials;
     },
-    choices: ['End Practice'],
+    choices: ['End Practice'], // SHOULD THIS BE Next? OR DIFFERENT FOR EACH?
   };
 
   var real_task_welcome = {
